@@ -52,6 +52,8 @@ namespace Exercicio13
             Console.WriteLine("Idade: " + idade);
             Console.WriteLine("Salário: " + salario);
 
+
+
         }
     }
 }

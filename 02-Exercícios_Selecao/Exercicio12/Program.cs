@@ -35,6 +35,8 @@
             {
                 salarioTotal = salarioPorHora * numeroHoras;
                 Console.WriteLine("Salario Total do Operario: " + salarioTotal);
+
+
             }
         }
     }

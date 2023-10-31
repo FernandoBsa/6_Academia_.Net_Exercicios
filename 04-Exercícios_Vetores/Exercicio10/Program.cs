@@ -41,6 +41,8 @@
                 Console.Write(vetorResultado[i] + " ");
             }
 
+
+
         }
     }
 }

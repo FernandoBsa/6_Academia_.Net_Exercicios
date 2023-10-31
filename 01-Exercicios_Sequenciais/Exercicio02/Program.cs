@@ -27,6 +27,7 @@
             media = (valor1 + valor2 + valor3 + valor4) / 2;
 
             Console.WriteLine("A media dos valores e: " + media);
+
         }
     }
 }

@@ -44,8 +44,6 @@ namespace Exercicio14
                 }
             }
 
-
-
             if (saoIguais)
             {
                 Console.WriteLine("Os elementos da diagonal principal são os mesmos da diagonal secundária.");
