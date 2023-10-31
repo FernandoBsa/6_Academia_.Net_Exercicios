@@ -14,6 +14,7 @@
             Produto produto = new Produto("Caneta", 1.5, 50);
             produto.Adicionar(10);
             Console.WriteLine(produto.nome + ", Valor: " + produto.preco + ", Quantidade em estoque: " + produto.quantidadeEstoque);
+
         }
     }
 }

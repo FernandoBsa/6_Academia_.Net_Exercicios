@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Exercicio05
 {
-    internal class Produto
+    public class Produto
     {
         public string nome;
         public double preco;
@@ -35,5 +36,6 @@ namespace Exercicio05
                 Console.WriteLine("A quantidade a ser removida é maior do que a quantidade em estoque.");
             }
         }
+
     }
 }
