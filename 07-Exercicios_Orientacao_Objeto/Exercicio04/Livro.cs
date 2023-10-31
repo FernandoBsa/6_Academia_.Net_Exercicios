@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Exercicio04
 {
     internal class Livro
-    {
+    {       
         public string titulo;
         public string autor;
         public int anoPublicacao;
@@ -47,7 +47,7 @@ namespace Exercicio04
             }
         }
 
-        public void exibirInfo()
+        public void exibirInformacao()
         {
             Console.WriteLine("Titulo: " + titulo);
             Console.WriteLine("Autor: " + autor);
@@ -56,4 +56,5 @@ namespace Exercicio04
             Console.WriteLine(mensagem);
         }
     }
+    
 }

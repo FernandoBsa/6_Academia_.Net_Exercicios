@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _07_Exercicios_Orientacao_Objeto
+namespace Exercicio01
 {
     internal class Pessoa
     {
@@ -17,7 +17,7 @@ namespace _07_Exercicios_Orientacao_Objeto
         {
             this.nome = nome;
             this.idade = idade;
-            this.cpf = cpf;            
+            this.cpf = cpf;
             this.rg = rg;
         }
 
@@ -29,5 +29,4 @@ namespace _07_Exercicios_Orientacao_Objeto
             Console.WriteLine("RG: " + rg);
         }
     }
-
 }

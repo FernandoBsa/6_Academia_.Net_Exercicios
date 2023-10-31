@@ -29,7 +29,7 @@ namespace Exercicio03
 
         public void Atacar(double dano)
         {
-            Console.WriteLine("O personagem " + nome + " atacou com um dano de " + dano+ "!");
+            Console.WriteLine("O personagem " + nome + " atacou com um dano de " + dano + "!");
         }
 
         public void Movimentar(int direcao)
@@ -53,6 +53,5 @@ namespace Exercicio03
                     break;
             }
         }
-
     }
 }

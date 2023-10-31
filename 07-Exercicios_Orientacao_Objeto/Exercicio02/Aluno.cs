@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Exercicio02
 {
@@ -35,6 +34,4 @@ namespace Exercicio02
             Console.WriteLine("Curso do Aluno: " + curso);
         }
     }
-
- 
 }
