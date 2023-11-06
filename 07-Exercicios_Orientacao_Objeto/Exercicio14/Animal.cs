@@ -6,15 +6,21 @@ using System.Threading.Tasks;
 
 namespace Exercicio14
 {
-    internal class Animal
+    abstract class Animal
     {
         public string Nome { get; set; }
         public string Especie { get; set; }
         public int Idade { get; set; }
 
-        public void EmitirSom()
+        public Animal(string nome)
         {
-            Console.WriteLine("O animal emite um som.");
+            this.Nome = nome;
         }
+        public abstract void EmitirSom();
+        public  void Movimentou(string direcao)
+        {
+            Console.WriteLine("O Animal esta se movimentando para " + direcao);
+        }
+
     }
 }
